@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Download, Sparkles } from "lucide-react";
 import { LeadForm } from "@/components/LeadForm";
 import { StatsSection } from "@/components/StatsSection";
+import { WorkingHours } from "@/components/WorkingHours";
 import heroImage from "@/assets/hero-property.jpg";
 
 const Index = () => {
@@ -20,6 +21,9 @@ const Index = () => {
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center gap-8 px-4 text-center max-w-5xl mx-auto">
+        {/* Working Hours */}
+        <WorkingHours />
+
         {/* Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/20 border border-accent/30 backdrop-blur-sm">
           <Sparkles className="h-4 w-4 text-accent" />
@@ -28,14 +32,14 @@ const Index = () => {
 
         {/* Main heading */}
         <h1 className="text-4xl md:text-6xl font-bold text-primary-foreground leading-tight">
-          Премиальная недвижимость
+          Каталог переуступок
           <br />
-          <span className="text-accent">вашей мечты</span>
+          <span className="text-accent">в жилом комплексе</span>
         </h1>
 
         {/* Subheading */}
         <p className="text-lg md:text-xl text-primary-foreground/90 max-w-2xl">
-          Эксклюзивный каталог с 500+ объектами элитной недвижимости. 
+          Эксклюзивный каталог с 500+ объектами переуступок. 
           Получите полный доступ прямо сейчас – совершенно бесплатно.
         </p>
 

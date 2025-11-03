@@ -63,10 +63,10 @@ export function LeadForm({ open, onOpenChange }: LeadFormProps) {
       <DialogContent className="sm:max-w-md">
         <DialogHeader>
           <DialogTitle className="text-2xl font-bold text-center">
-            Получить каталог недвижимости
+            Получить каталог переуступок
           </DialogTitle>
           <DialogDescription className="text-center">
-            Заполните форму и получите эксклюзивный каталог на вашу почту
+            Заполните форму и получите эксклюзивный каталог переуступок на вашу почту
           </DialogDescription>
         </DialogHeader>
 
